@@ -8,22 +8,22 @@ Directory structure
 ===========
 ./
 =====
--keygen.js		: Generates public private keys (1024 bits).
--LRSignature.js	: Signature components wrapper.
--LRSigner.js		: Prover object implementation.
--LRVerifier.js		: Verifier object implementation.
+*keygen.js		: Generates public private keys (1024 bits).
+*LRSignature.js	: Signature components wrapper.
+*LRSigner.js		: Prover object implementation.
+*LRVerifier.js		: Verifier object implementation.
 
 ./library/
 =====
--dsa.js			: Library to generate DSA keys (1024 bits).
--helpers.js		: helper library to provide utility functions.
--bigInt.js			: BigInt library for large integer arithmetic.
--sha1.js			: Standard sha1 hash library.
--sha256.js		: SHA-256 hash library.
+*dsa.js			: Library to generate DSA keys (1024 bits).
+*helpers.js		: helper library to provide utility functions.
+*bigInt.js			: BigInt library for large integer arithmetic.
+*sha1.js			: Standard sha1 hash library.
+*sha256.js		: SHA-256 hash library.
 
 ./tests/
 =====
--test.js			: Code to test the implementation of signer and verifier class.
+*test.js			: Code to test the implementation of signer and verifier class.
 
 Usage Instructions
 ==========
@@ -40,7 +40,7 @@ Usage Instructions
  
 Other Notes
 ======
--The implementation takes advantage of MPI to ensure platform portability. Signature is
+*The implementation takes advantage of MPI to ensure platform portability. Signature is
  generated in MPI format.
--Public Private keys are generated as binary files (used JSON to serialize DSA keys objects
+*Public Private keys are generated as binary files (used JSON to serialize DSA keys objects
  into string).
